@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/integralui/css/integralui.module.css",
+              "src/app/integralui/themes/integralui.themes.office.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "ISolveTask"
+  "defaultProject": "ISolveTask",
+  "cli": {
+    "analytics": "8330f968-e282-42ba-8b7c-ee0aed27396e"
+  }
 }
